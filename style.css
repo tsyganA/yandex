@@ -1,0 +1,43 @@
+header {
+    position: relative;
+    background-color: #e9ded4;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    top: 1.9em;
+    left: 11.8em;
+}
+
+.club-four {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    font-family: 'Golos Text', sans-serif;
+    font-size: 16.65px;
+    font-weight: 700;
+    line-height: 17.98px;
+    letter-spacing: 0.007em;
+    color: #595653;
+    margin: 0 0 0 0.32em;
+}
+
+.horses-logo {
+    display: flex;
+    gap: 0.1em;
+}
+
+.horses-logo img {
+    /* display: block;
+    margin: 0;
+    padding: 0; */
+    width: 21.65px;
+    height: 31.18px;
+}
+
+.transform-city {
+    position: absolute;
+    top: 7.9em;
+    left: 11.8em;
+}
