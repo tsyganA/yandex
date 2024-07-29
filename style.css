@@ -285,3 +285,66 @@ tr td:last-child {
     margin-top: 2.4em;
     letter-spacing: 0.03em;
 }
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.step {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.step-number {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    font-size: 1em;
+}
+
+.step-content {
+    font-size: 1.2em;
+    color: #333;
+    text-align: left;
+    margin-top: 15px;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.stages {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.sources {
+    font-size: 1.5em;
+    color: #5a5a5a;
+    margin-bottom: 30px;
+}
