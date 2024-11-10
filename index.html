@@ -8,25 +8,27 @@
     </head>
     <body>
         <header>
-            <img alt="header" src="assets/header.png" />
-            <div class="logo">
-                <div class="horses-logo">
-                    <img alt="horse" src="assets/horse.svg" />
-                    <img alt="horse" src="assets/horse.svg" />
-                    <img alt="horse" src="assets/horse.svg" />
-                    <img alt="horse" src="assets/horse.svg" />
-                </div>
+            <img alt="header" class="img-header" src="assets/header.png" />
+            <div class="header-text">
+                <div class="logo">
+                    <div class="horses-logo">
+                        <img alt="horse" src="assets/horse.svg" />
+                        <img alt="horse" src="assets/horse.svg" />
+                        <img alt="horse" src="assets/horse.svg" />
+                        <img alt="horse" src="assets/horse.svg" />
+                    </div>
 
-                <p class="club-four">КЛУБ<br />ЧЕТЫРЕХ КОНЕЙ</p>
-            </div>
-            <div class="transform-city">
-                <h1 class="capital-globe">
-                    ПРЕВРАТИТЕ<br />УЕЗДНЫЙ ГОРОД<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;В СТОЛИЦУ<br />&nbsp;&nbsp;ЗЕМНОГО ШАРА
-                </h1>
-                <p class="for-telegrams">Оплатите взнос на телеграммы для организации<br />Международного васюкинского турнира по шахматам</p>
-                <div class="btns-header">
-                    <button class="support-idea-btn">Поддержать<br />шахматную мысль</button>
-                    <button class="about-tournament-btn">Подробнее<br />о турнире</button>
+                    <p class="club-four">КЛУБ<br />ЧЕТЫРЕХ КОНЕЙ</p>
+                </div>
+                <div class="transform-city">
+                    <h1 class="capital-globe">
+                        ПРЕВРАТИТЕ<br />УЕЗДНЫЙ ГОРОД<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;В СТОЛИЦУ<br />&nbsp;&nbsp;ЗЕМНОГО ШАРА
+                    </h1>
+                    <p class="for-telegrams">Оплатите взнос на телеграммы для организации<br />Международного васюкинского турнира по шахматам</p>
+                    <div class="btns-header">
+                        <button class="support-idea-btn">Поддержать<br />шахматную мысль</button>
+                        <button class="about-tournament-btn">Подробнее<br />о турнире</button>
+                    </div>
                 </div>
             </div>
         </header>
@@ -75,45 +77,83 @@
                 <p class="mikhelson">По всем вопросам обращаться в администрацию к К. Михельсону</p>
             </div>
         </section>
-        <section class="container">
-            <h1 class="stages">ЭТАПЫ ПРЕОБРАЖЕНИЯ ВАСЮКОВ</h1>
-            <h2 class="sources">Будущие источники обогащения васюкинцев</h2>
-            <div class="steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <div class="step-content">Строительство железнодорожной магистрали Москва-Васюки</div>
-                </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <div class="step-content">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</div>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет
+        <section class="stages">
+            <div class="grid__wrapper">
+                <h2 class="grid__heading">Этапы преображения <span class="grid__sub-heading">Васюков</span></h2>
+                <div class="grid__inner">
+                    <div data-id="1" class="grid__item">
+                        <p class="grid__text">Строительство железнодорожной магистрали Москва-Васюки</p>
                     </div>
-                </div>
-                <div class="step">
-                    <div class="step-number">4</div>
-                    <div class="step-content">Строительство дворца для турнира</div>
-                </div>
-                <div class="step">
-                    <div class="step-number">5</div>
-                    <div class="step-content">Размещение гаражей для гостевого автотранспорта</div>
-                </div>
-                <div class="step">
-                    <div class="step-number">6</div>
-                    <div class="step-content">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</div>
-                </div>
-                <div class="step">
-                    <div class="step-number">7</div>
-                    <div class="step-content">
-                        Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая
-                        Лос-Анджелес и Мельбурн
+                    <div data-id="2" class="grid__item">
+                        <p class="grid__text">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</p>
+                    </div>
+                    <div data-id="3" class="grid__item">
+                        <p class="grid__text">
+                            Поднятие сельского хозяйства в радиусе <br />на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет
+                        </p>
+                    </div>
+                    <div data-id="4" class="grid__item">
+                        <p class="grid__text">Строительство дворца для турнира</p>
+                    </div>
+                    <div data-id="5" class="grid__item">
+                        <p class="grid__text">Размещение гаражей <br />для гостевого автотранспорта</p>
+                    </div>
+                    <div data-id="6" class="grid__item sixandseven">
+                        <p class="grid__text">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</p>
+                    </div>
+                    <div data-id="7" class="grid__item sixandseven">
+                        <p class="grid__text">
+                            Создание аэропорта «Большие Васюки» <br />с регулярным отправлением почтовых самолётов и дирижаблей во все концы света,
+                            включая Лос-Анжелос и Мельбурн
+                        </p>
+                        <div class="grid__illustration">
+                            <img class="grid__image" src="assets/airplane.png" />
+                        </div>
                     </div>
                 </div>
             </div>
-            <img src="path/to/your/image.jpg" alt="Plane" />
         </section>
+        <section class="members">
+            <div class="tournament">
+                <h2 class="tournament-text">УЧАСТНИКИ ТУРНИРА</h2>
+                <div class="tournament-btn">
+                    <button class="button-tournament"><</button>
+                    <p>3/6</p>
+                    <button class="button-tournament">></button>
+                </div>
+            </div>
+            <div class="all-participants">
+                <div class="participant">
+                    <img src="assets/participant.png" />
+                    <p class="surname">Хозе-Рауль Капабланка</p>
+                    <span class="champion">Чемпион мира по шахматам</span>
+                    <button class="button-participant">Подробнее</button>
+                </div>
+                <div class="participant">
+                    <img src="assets/participant.png" />
+                    <p class="surname">Эммануил Ласкер</p>
+                    <span class="champion">Чемпион мира по шахматам</span>
+                    <button class="button-participant">Подробнее</button>
+                </div>
+                <div class="participant">
+                    <img src="assets/participant.png" />
+                    <p class="surname">Александр Алехин</p>
+                    <span class="champion">Чемпион мира по шахматам</span>
+                    <button class="button-participant">Подробнее</button>
+                </div>
+            </div>
+        </section>
+        <section class="ticker">
+            <p class="ticker-text">
+                ДЕЛО ПОМОЩИ УТОПАЮЩИМ — ДЕЛО РУК САМИХ УТОПАЮЩИХ!&nbsp;•&nbsp;ШАХМАТЫ ДВИГАЮТ ВПЕРЕД НЕ ТОЛЬКО КУЛЬТУРУ, НО И
+                ЭКОНОМИКУ!&nbsp;•&nbsp;ЛЕД ТРОНУЛСЯ, ГОСПОДА ПРИСЯЖНЫЕ ЗАСЕДАТЕЛИ!&nbsp;•&nbsp;
+            </p>
+        </section>
+        <footer>
+            <p class="all-characters">
+                Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе
+                XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».
+            </p>
+        </footer>
     </body>
 </html>

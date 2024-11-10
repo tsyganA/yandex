@@ -18,9 +18,10 @@ header {
 
 .logo {
     display: flex;
-    position: absolute;
-    top: 1.9em;
-    left: 11.8em;
+    padding-top: 25px;
+    /* position: absolute;
+    top: 1.7em;
+    left: 11.8em; */
 }
 
 .club-four {
@@ -50,9 +51,12 @@ header {
 }
 
 .transform-city {
-    position: absolute;
-    top: 7.9em;
-    left: 11.8em;
+    /* position: absolute;
+    top: 7.58em;
+    left: 11.8em; */
+    width: 40%;
+    margin-top: 4em;
+    padding-bottom: 8em;
 }
 
 .capital-globe {
@@ -150,7 +154,8 @@ header {
     font-size: 36px;
     font-weight: 700;
     line-height: 48.6px;
-    letter-spacing: 0.028em;
+    letter-spacing: 0.003em;
+    margin-top: 0.9em;
 }
 
 .opening-idea {
@@ -162,6 +167,7 @@ header {
     justify-content: space-between;
     max-width: 76.5rem;
     margin: 4.5em auto 0 auto;
+    max-width: 1200px;
     /* margin-top: 4.5em;
     margin-left: 11.5em; */
 }
@@ -173,8 +179,11 @@ header {
 
 .simultaneous-game {
     display: flex;
-    margin-top: 1.7em;
-    margin-left: 9.8em;
+    max-width: 1250px;
+    /* margin-top: 1.7em; */
+    /* margin-left: 9.8em; */
+    margin: 1.7em auto 0 auto;
+    justify-content: space-between;
 }
 
 .session {
@@ -182,7 +191,7 @@ header {
     font-size: 36px;
     font-weight: 400;
     line-height: 48.6px;
-    margin: 0;
+    margin-top: 0.15em;
     letter-spacing: 0.03em;
 }
 
@@ -192,8 +201,9 @@ header {
 }
 
 .bendera {
-    margin-left: 1.1em;
+    /* margin-left: 1.1em; */
     margin-top: 1.9em;
+    /* padding-right: 2em; */
 }
 
 table {
@@ -217,7 +227,7 @@ th {
     line-height: 24px;
     letter-spacing: 0.03em;
     /* background-color: #f2f2f2; */
-    max-width: 10.2em;
+    max-width: 9.7em;
     /* height: 1.7em; */
     padding-left: 0;
     border: 2px solid #ccc;
@@ -234,6 +244,7 @@ td {
     border: 2px solid #ccc;
     text-align: left;
     padding: 0.8em 0 0.7em 0.8em;
+    /* width: 17.5em; */
 }
 
 .strikethrough {
@@ -284,23 +295,55 @@ tr td:last-child {
     color: #3057a2;
     margin-top: 2.4em;
     letter-spacing: 0.03em;
+    padding-right: 2.7em;
 }
-
+/*этапы преображения */
 .steps {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+
+.steps1245 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50em;
+}
+
+.steps12345 {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .step {
+    flex: 1 1 200px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    width: 30%;
+    width: 22em;
+    height: 7em;
     margin-bottom: 20px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
+}
+
+.step3 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 22em;
+    height: 15em;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.item-large {
+    /* flex-grow: 2; Блок займет больше вертикального пространства */
+    grid-column: span 1; /* Оставляем одну колонку */
+    grid-row: span 2; /* Занимает два ряда */
 }
 
 .step-number {
@@ -325,26 +368,304 @@ tr td:last-child {
     margin-top: 15px;
 }
 
-img {
-    margin-top: 20px;
-    max-width: 100%;
-    height: auto;
+.img-header {
+    /* margin-top: 20px; */
+    /* max-width: 100%; */
+    /* height: auto; */
+
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* bottom: 0; */
+    /* left: 0; */
+    /* top: -10%; */
+    object-fit: cover;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
+.header-text {
+    margin-left: 10em;
 }
 
-.stages {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
+/* .stages {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 64.8px;
+    text-align: left;
+    letter-spacing: 0.038em;
+    color: #313131;
+} */
 
 .sources {
-    font-size: 1.5em;
-    color: #5a5a5a;
-    margin-bottom: 30px;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.04em;
+    color: #3057a2;
+    /* font-family: 'Merriweather', sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 64.8px; */
+    /* font-size: 1.5em;
+    color: #313131;
+    margin-bottom: 30px; */
+    position: absolute;
+    top: 2.8em;
+    left: 15.1em;
+}
+
+.stage-head {
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+/* html,
+body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-variant-ligatures: none;
+} */
+
+/* .container {
+    display: flex;
+    align-items: center;
+    margin: 10% auto;
+    max-width: 1366px;
+    min-height: 20rem;
+    padding: 2rem 4.5rem;
+    border: 1px solid #c9cdd1;
+    border-radius: 1rem;
+} */
+
+.stages {
+    display: flex;
+    /* width: 81%; */
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 20px; */
+    justify-content: center;
+}
+/* Сетка */
+.grid__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1220px;
+}
+.grid__inner {
+    display: grid;
+    grid-auto-rows: minmax(0, 110px);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+}
+
+.grid__heading {
+    max-width: calc((100% - 1.25rem) / 3 * 2);
+    margin-bottom: 3.375rem;
+    width: 800px;
+    font-family: 'Merriweather', 'Georgia', 'Montserrat';
+    font-size: 3.375rem;
+    font-weight: normal;
+    line-height: 1.2;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 3.59em;
+}
+
+.grid__heading:after {
+    position: relative;
+    content: 'Будущие источники обогащения васюкинцев';
+    display: inline-block;
+    max-width: 280px;
+    word-break: break-word;
+    margin-left: 1rem;
+    text-transform: none;
+    font-family: 'Golos Text', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #3057a2;
+}
+.grid__text {
+    margin-left: 1.25rem;
+    text-align: left;
+    font-family: 'Golos Text', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.grid__item {
+    position: relative;
+    background-color: #e6cf99;
+    /*   background-image: url(""), url(""); URL ваших фото */
+    padding: 1.25rem 1.25rem 1.25rem 3.5rem;
+}
+
+.sixandseven {
+    /* position: relative; */
+    /* background-color: #e6cf99; */
+    /*   background-image: url(""), url(""); URL ваших фото */
+    /* padding: 1.25rem 1.25rem 1.25rem 3.5rem; */
+    height: 140px;
+}
+
+.grid__item[data-id='3'] {
+    grid-template-rows: subgrid;
+    grid-row: span 2;
+}
+.grid__item[data-id='7'] {
+    display: flex;
+    grid-template-columns: subgrid;
+    grid-column: span 2 / span 4;
+}
+.grid__item[data-id='7'] .grid__text {
+    max-width: 446px;
+}
+.grid__item:before {
+    position: absolute;
+    left: 1.25rem;
+    top: 1.25rem;
+    content: attr(data-id);
+    width: 2.25rem;
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background-color: #ffffff;
+    font-size: 1.25rem;
+    font-family: 'Golos Text', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.grid__illustration {
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    width: 376px;
+    height: 140px;
+    /* background-color: #7f7979; */
+}
+.grid__image {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    top: -78%;
+    object-fit: cover;
+}
+
+.tournament {
+    display: flex;
+    max-width: 1220px;
+    margin: 14.5em auto 0 auto;
+    justify-content: space-between;
+}
+
+.tournament-btn {
+    display: flex;
+    align-items: center;
+    width: 9.5em;
+    justify-content: space-between;
+}
+
+.tournament-text {
+    font-family: 'Merriweather', serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 64.8px;
+    letter-spacing: 0.06em;
+}
+
+.button-tournament {
+    border-radius: 100px;
+    /* border-color: black; */
+    box-sizing: border-box;
+    width: 44px;
+    height: 44px;
+    /* font-size: 20px; */
+    background: black;
+    color: white;
+}
+
+.participant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.surname {
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-top: 1.2em;
+}
+
+.champion {
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 0.6;
+    margin-top: 0.4em;
+}
+
+.button-participant {
+    border-radius: 62px;
+    border: 1px solid;
+    padding: 12px;
+    color: #3057a2;
+    width: 113px;
+    height: 35px;
+    margin-top: 1.3em;
+    background-color: transparent;
+}
+
+.all-participants {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1145px;
+    margin: 3.8em 0 8.7em 3.3em;
+}
+
+.members {
+    /* display: flex; */
+    max-width: 1250px;
+    margin: 0 auto 0 auto;
+}
+
+.all-characters {
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    opacity: 0.6;
+    padding-top: 2.7em;
+    padding-bottom: 4.3em;
+    text-align: left;
+    letter-spacing: 0.028em;
+    max-width: 1215px;
+}
+
+footer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    /* text-align: center; */
+    /* max-width: 1215px; */
+    background: #e9ded4;
 }
